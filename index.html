@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Jogo da Velha</title>
+</head>
+<body>
+
+	<div id="container">
+
+		<h1 id="titulo">JOGO DA VELHA</h1>
+
+		<div id="vez-jogador">
+			<div id="vez">
+				<label id="lblVez">Vez do jogador:</label>  
+			</div>
+			<div id="jogador">
+				<label id="lblJogador">X</label>  
+			</div>
+			<div class="clear"></div>
+	
+		</div>
+
+		<div id="area-jogo">
+
+			<div class="celula" id="a1" onclick="jogada('a1')">
+			</div>
+			<div class="celula" id="b1" onclick="jogada('b1')">
+			</div>			
+			<div class="celula" id="c1" onclick="jogada('c1')">
+			</div>
+
+			<div class="clear"></div>
+
+
+			<div class="celula" id="a2" onclick="jogada('a2')">
+			</div>
+			<div class="celula" id="b2" onclick="jogada('b2')">
+			</div>			
+			<div class="celula" id="c2" onclick="jogada('c2')">
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="celula" id="a3" onclick="jogada('a3')">
+			</div>
+			<div class="celula" id="b3" onclick="jogada('b3')">
+			</div>			
+			<div class="celula" id="c3" onclick="jogada('c3')">
+			</div>
+
+			<div class="clear"></div>
+
+			<button id="reiniciar" onclick="reiniciar()">REINICIAR</button>
+
+
+		</div>
+		
+	</div>
+
+</body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+
+<script src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,80 @@
+*{
+	margin: 5px;
+	padding: 0;
+	font-family: "Geometr415 Blk BT";
+}
+
+body{
+	background: #214750;
+}
+
+#container{
+	margin: auto;
+	width: 490px;
+}
+
+#titulo{
+	color: #c2b89c;
+	text-shadow: #000 2px 3px 2px;
+	font-size: 48px;
+	text-align: center;
+}
+
+#vez-jogador{
+	padding: 5px;
+	background: #37756c;
+	border-radius: 4px;
+	font-size: 1.8em;
+	display: inline-block;
+
+}
+
+#vez{
+	float: left;
+	padding: 5px;
+	color: #c2b89c;
+}
+
+#jogador{
+	float: left;
+	background: #214750;
+	padding: 5px;
+	border-radius: 4px;
+	color: #c2b89c;
+}
+
+.celula{
+	background: #37756c;
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+	border-radius: 4px;
+	line-height: 150px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	font-family: 'Bauhaus 93';
+	color: #d4d1b0;
+	font-size: 120px;
+}
+
+.clear{
+	clear: both;
+}
+
+#reiniciar{
+	padding: 7px;
+	cursor: pointer;
+	font-size: 1.8em;
+	border-radius: 4px;
+	background: #1b2f46;
+	color: #c2b89c;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#reiniciar:hover{
+	color: #1b2f46;
+	background: #c2b89c;
+}
+
